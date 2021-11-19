@@ -38,7 +38,7 @@ function App() {
   const [location, setLocation] = useState("Vancouver");
   const [hasError, setHasError] = useState(false);
 
-  useEffect(async () => {
+  useEffect(() => {
     getApi();
   }, []);
 
